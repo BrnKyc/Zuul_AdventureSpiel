@@ -1,0 +1,334 @@
+de.fh_zwickau.oose.zuul09/src/main/BackCommand.java:16:	CallSuperInConstructor:	CallSuperInConstructor: It is a good practice to call super() in a constructor
+de.fh_zwickau.oose.zuul09/src/main/BackCommand.java:16:	UncommentedEmptyConstructor:	UncommentedEmptyConstructor: Document empty constructor
+de.fh_zwickau.oose.zuul09/src/main/BackCommand.java:16:	UnnecessaryConstructor:	UnnecessaryConstructor: Avoid unnecessary constructors - the compiler will generate these for you
+de.fh_zwickau.oose.zuul09/src/main/BackCommand.java:31:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'player' is not assigned and could be declared final
+de.fh_zwickau.oose.zuul09/src/main/BackCommand.java:31:	MissingOverride:	MissingOverride: The method 'execute(Player)' is missing an @Override annotation.
+de.fh_zwickau.oose.zuul09/src/main/BackCommand.java:35:	SystemPrintln:	SystemPrintln: Usage of System.out/err
+de.fh_zwickau.oose.zuul09/src/main/BackCommand.java:37:	SystemPrintln:	SystemPrintln: Usage of System.out/err
+de.fh_zwickau.oose.zuul09/src/main/Command.java:5:	CommentSize:	CommentSize: Comment is too large: Too many lines
+de.fh_zwickau.oose.zuul09/src/main/Command.java:8:	CommentSize:	CommentSize: Comment is too large: Line too long
+de.fh_zwickau.oose.zuul09/src/main/Command.java:10:	CommentSize:	CommentSize: Comment is too large: Line too long
+de.fh_zwickau.oose.zuul09/src/main/Command.java:20:	CommentRequired:	CommentRequired: Field comments are required
+de.fh_zwickau.oose.zuul09/src/main/Command.java:31:	CommentSize:	CommentSize: Comment is too large: Line too long
+de.fh_zwickau.oose.zuul09/src/main/Command.java:32:	CommentSize:	CommentSize: Comment is too large: Line too long
+de.fh_zwickau.oose.zuul09/src/main/Command.java:51:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'secondWord' is not assigned and could be declared final
+de.fh_zwickau.oose.zuul09/src/main/Command.java:64:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+de.fh_zwickau.oose.zuul09/src/main/CommandWords.java:16:	CommentRequired:	CommentRequired: Field comments are required
+de.fh_zwickau.oose.zuul09/src/main/CommandWords.java:16:	ImmutableField:	ImmutableField: Field 'commands' may be declared final
+de.fh_zwickau.oose.zuul09/src/main/CommandWords.java:16:	LooseCoupling:	LooseCoupling: Avoid using implementation types like 'HashMap'; use the interface instead
+de.fh_zwickau.oose.zuul09/src/main/CommandWords.java:23:	UseDiamondOperator:	UseDiamondOperator: Explicit type arguments can be replaced by a diamond: `new HashMap<>()`
+de.fh_zwickau.oose.zuul09/src/main/CommandWords.java:36:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'word' is not assigned and could be declared final
+de.fh_zwickau.oose.zuul09/src/main/CommandWords.java:38:	CommentSize:	CommentSize: Comment is too large: Line too long
+de.fh_zwickau.oose.zuul09/src/main/CommandWords.java:42:	CommentSize:	CommentSize: Comment is too large: Line too long
+de.fh_zwickau.oose.zuul09/src/main/CommandWords.java:43:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'command' could be declared final
+de.fh_zwickau.oose.zuul09/src/main/CommandWords.java:54:	ForLoopCanBeForeach:	ForLoopCanBeForeach: This for loop can be replaced by a foreach loop
+de.fh_zwickau.oose.zuul09/src/main/CommandWords.java:54:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'i' could be declared final
+de.fh_zwickau.oose.zuul09/src/main/CommandWords.java:55:	SystemPrintln:	SystemPrintln: Usage of System.out/err
+de.fh_zwickau.oose.zuul09/src/main/CommandWords.java:57:	SystemPrintln:	SystemPrintln: Usage of System.out/err
+de.fh_zwickau.oose.zuul09/src/main/DropCommand.java:5:	CommentRequired:	CommentRequired: Class comments are required
+de.fh_zwickau.oose.zuul09/src/main/DropCommand.java:7:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+de.fh_zwickau.oose.zuul09/src/main/DropCommand.java:7:	UnnecessaryConstructor:	UnnecessaryConstructor: Avoid unnecessary constructors - the compiler will generate these for you
+de.fh_zwickau.oose.zuul09/src/main/DropCommand.java:23:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'player' is not assigned and could be declared final
+de.fh_zwickau.oose.zuul09/src/main/DropCommand.java:24:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'optionalItemName' could be declared final
+de.fh_zwickau.oose.zuul09/src/main/DropCommand.java:27:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'itemName' could be declared final
+de.fh_zwickau.oose.zuul09/src/main/DropCommand.java:28:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'optionalItem' could be declared final
+de.fh_zwickau.oose.zuul09/src/main/DropCommand.java:31:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'item' could be declared final
+de.fh_zwickau.oose.zuul09/src/main/DropCommand.java:32:	LawOfDemeter:	LawOfDemeter: Call to `getCurrentRoom` on foreign value `player` (degree 1)
+de.fh_zwickau.oose.zuul09/src/main/DropCommand.java:33:	SystemPrintln:	SystemPrintln: Usage of System.out/err
+de.fh_zwickau.oose.zuul09/src/main/DropCommand.java:35:	SystemPrintln:	SystemPrintln: Usage of System.out/err
+de.fh_zwickau.oose.zuul09/src/main/DropCommand.java:38:	SystemPrintln:	SystemPrintln: Usage of System.out/err
+de.fh_zwickau.oose.zuul09/src/main/Game.java:2:	CommentSize:	CommentSize: Comment is too large: Too many lines
+de.fh_zwickau.oose.zuul09/src/main/Game.java:8:	CommentSize:	CommentSize: Comment is too large: Line too long
+de.fh_zwickau.oose.zuul09/src/main/Game.java:23:	CommentRequired:	CommentRequired: Class comments are required
+de.fh_zwickau.oose.zuul09/src/main/Game.java:23:	ShortClassName:	ShortClassName: Avoid short class names like Game
+de.fh_zwickau.oose.zuul09/src/main/Game.java:25:	CommentRequired:	CommentRequired: Field comments are required
+de.fh_zwickau.oose.zuul09/src/main/Game.java:25:	ImmutableField:	ImmutableField: Field 'parser' may be declared final
+de.fh_zwickau.oose.zuul09/src/main/Game.java:26:	CommentRequired:	CommentRequired: Field comments are required
+de.fh_zwickau.oose.zuul09/src/main/Game.java:26:	ImmutableField:	ImmutableField: Field 'player' may be declared final
+de.fh_zwickau.oose.zuul09/src/main/Game.java:42:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'game' could be declared final
+de.fh_zwickau.oose.zuul09/src/main/Game.java:51:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'adminraum' could be declared final
+de.fh_zwickau.oose.zuul09/src/main/Game.java:51:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'bibliothek' could be declared final
+de.fh_zwickau.oose.zuul09/src/main/Game.java:51:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'computerraum' could be declared final
+de.fh_zwickau.oose.zuul09/src/main/Game.java:51:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'draussen' could be declared final
+de.fh_zwickau.oose.zuul09/src/main/Game.java:51:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'hoersaal' could be declared final
+de.fh_zwickau.oose.zuul09/src/main/Game.java:51:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'labor' could be declared final
+de.fh_zwickau.oose.zuul09/src/main/Game.java:51:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'mensa' could be declared final
+de.fh_zwickau.oose.zuul09/src/main/Game.java:51:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'wohnheim' could be declared final
+de.fh_zwickau.oose.zuul09/src/main/Game.java:51:	OneDeclarationPerLine:	OneDeclarationPerLine: Use one line for each declaration, it enhances code readability.
+de.fh_zwickau.oose.zuul09/src/main/Game.java:51:	UnusedLocalVariable:	UnusedLocalVariable: Avoid unused local variables such as 'buero'.
+de.fh_zwickau.oose.zuul09/src/main/Game.java:52:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'atelier' could be declared final
+de.fh_zwickau.oose.zuul09/src/main/Game.java:52:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'hauptgang' could be declared final
+de.fh_zwickau.oose.zuul09/src/main/Game.java:52:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'nordflügel' could be declared final
+de.fh_zwickau.oose.zuul09/src/main/Game.java:52:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'ostflügel' could be declared final
+de.fh_zwickau.oose.zuul09/src/main/Game.java:52:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'sekretariat' could be declared final
+de.fh_zwickau.oose.zuul09/src/main/Game.java:52:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'studio' could be declared final
+de.fh_zwickau.oose.zuul09/src/main/Game.java:52:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'terrasse' could be declared final
+de.fh_zwickau.oose.zuul09/src/main/Game.java:52:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'westflügel' could be declared final
+de.fh_zwickau.oose.zuul09/src/main/Game.java:52:	LocalVariableNamingConventions:	LocalVariableNamingConventions: The local variable name 'nordflügel' doesn't match '[a-z][a-zA-Z0-9]*'
+de.fh_zwickau.oose.zuul09/src/main/Game.java:52:	LocalVariableNamingConventions:	LocalVariableNamingConventions: The local variable name 'ostflügel' doesn't match '[a-z][a-zA-Z0-9]*'
+de.fh_zwickau.oose.zuul09/src/main/Game.java:52:	LocalVariableNamingConventions:	LocalVariableNamingConventions: The local variable name 'westflügel' doesn't match '[a-z][a-zA-Z0-9]*'
+de.fh_zwickau.oose.zuul09/src/main/Game.java:62:	UnusedAssignment:	UnusedAssignment: The value assigned to variable 'buero' is never used
+de.fh_zwickau.oose.zuul09/src/main/Game.java:77:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'schluessel' could be declared final
+de.fh_zwickau.oose.zuul09/src/main/Game.java:78:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'buch' could be declared final
+de.fh_zwickau.oose.zuul09/src/main/Game.java:89:	AvoidDuplicateLiterals:	AvoidDuplicateLiterals: The String literal "osten" appears 4 times in this file; the first occurrence is on line 89
+de.fh_zwickau.oose.zuul09/src/main/Game.java:90:	AvoidDuplicateLiterals:	AvoidDuplicateLiterals: The String literal "norden" appears 6 times in this file; the first occurrence is on line 90
+de.fh_zwickau.oose.zuul09/src/main/Game.java:129:	LawOfDemeter:	LawOfDemeter: Call to `getCommand` on foreign value `parser` (degree 1)
+de.fh_zwickau.oose.zuul09/src/main/Game.java:129:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'command' could be declared final
+de.fh_zwickau.oose.zuul09/src/main/Game.java:132:	SystemPrintln:	SystemPrintln: Usage of System.out/err
+de.fh_zwickau.oose.zuul09/src/main/Game.java:140:	SystemPrintln:	SystemPrintln: Usage of System.out/err
+de.fh_zwickau.oose.zuul09/src/main/Game.java:141:	SystemPrintln:	SystemPrintln: Usage of System.out/err
+de.fh_zwickau.oose.zuul09/src/main/Game.java:142:	SystemPrintln:	SystemPrintln: Usage of System.out/err
+de.fh_zwickau.oose.zuul09/src/main/Game.java:143:	SystemPrintln:	SystemPrintln: Usage of System.out/err
+de.fh_zwickau.oose.zuul09/src/main/Game.java:144:	SystemPrintln:	SystemPrintln: Usage of System.out/err
+de.fh_zwickau.oose.zuul09/src/main/Game.java:145:	LawOfDemeter:	LawOfDemeter: Call to `getCurrentRoom` on foreign value `player` (degree 1)
+de.fh_zwickau.oose.zuul09/src/main/Game.java:145:	SystemPrintln:	SystemPrintln: Usage of System.out/err
+de.fh_zwickau.oose.zuul09/src/main/GoCommand.java:16:	CallSuperInConstructor:	CallSuperInConstructor: It is a good practice to call super() in a constructor
+de.fh_zwickau.oose.zuul09/src/main/GoCommand.java:16:	UncommentedEmptyConstructor:	UncommentedEmptyConstructor: Document empty constructor
+de.fh_zwickau.oose.zuul09/src/main/GoCommand.java:16:	UnnecessaryConstructor:	UnnecessaryConstructor: Avoid unnecessary constructors - the compiler will generate these for you
+de.fh_zwickau.oose.zuul09/src/main/GoCommand.java:42:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'player' is not assigned and could be declared final
+de.fh_zwickau.oose.zuul09/src/main/GoCommand.java:42:	MissingOverride:	MissingOverride: The method 'execute(Player)' is missing an @Override annotation.
+de.fh_zwickau.oose.zuul09/src/main/GoCommand.java:45:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'direction' could be declared final
+de.fh_zwickau.oose.zuul09/src/main/GoCommand.java:49:	CommentSize:	CommentSize: Comment is too large: Line too long
+de.fh_zwickau.oose.zuul09/src/main/GoCommand.java:50:	SystemPrintln:	SystemPrintln: Usage of System.out/err
+de.fh_zwickau.oose.zuul09/src/main/HelpCommand.java:11:	CommentRequired:	CommentRequired: Field comments are required
+de.fh_zwickau.oose.zuul09/src/main/HelpCommand.java:11:	ImmutableField:	ImmutableField: Field 'commandWords' may be declared final
+de.fh_zwickau.oose.zuul09/src/main/HelpCommand.java:18:	CallSuperInConstructor:	CallSuperInConstructor: It is a good practice to call super() in a constructor
+de.fh_zwickau.oose.zuul09/src/main/HelpCommand.java:18:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'words' is not assigned and could be declared final
+de.fh_zwickau.oose.zuul09/src/main/HelpCommand.java:30:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'optionalSecondWord' could be declared final
+de.fh_zwickau.oose.zuul09/src/main/HelpCommand.java:30:	LongVariable:	LongVariable: Avoid excessively long variable names like optionalSecondWord
+de.fh_zwickau.oose.zuul09/src/main/HelpCommand.java:33:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'secondWord' could be declared final
+de.fh_zwickau.oose.zuul09/src/main/HelpCommand.java:34:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'optionalCommand' could be declared final
+de.fh_zwickau.oose.zuul09/src/main/HelpCommand.java:37:	SystemPrintln:	SystemPrintln: Usage of System.out/err
+de.fh_zwickau.oose.zuul09/src/main/HelpCommand.java:39:	SystemPrintln:	SystemPrintln: Usage of System.out/err
+de.fh_zwickau.oose.zuul09/src/main/HelpCommand.java:42:	SystemPrintln:	SystemPrintln: Usage of System.out/err
+de.fh_zwickau.oose.zuul09/src/main/HelpCommand.java:43:	SystemPrintln:	SystemPrintln: Usage of System.out/err
+de.fh_zwickau.oose.zuul09/src/main/HelpCommand.java:44:	SystemPrintln:	SystemPrintln: Usage of System.out/err
+de.fh_zwickau.oose.zuul09/src/main/HelpCommand.java:45:	SystemPrintln:	SystemPrintln: Usage of System.out/err
+de.fh_zwickau.oose.zuul09/src/main/HelpCommand.java:47:	SystemPrintln:	SystemPrintln: Usage of System.out/err
+de.fh_zwickau.oose.zuul09/src/main/HelpCommand.java:48:	SystemPrintln:	SystemPrintln: Usage of System.out/err
+de.fh_zwickau.oose.zuul09/src/main/Item.java:5:	CommentRequired:	CommentRequired: Class comments are required
+de.fh_zwickau.oose.zuul09/src/main/Item.java:5:	ShortClassName:	ShortClassName: Avoid short class names like Item
+de.fh_zwickau.oose.zuul09/src/main/Item.java:7:	CommentRequired:	CommentRequired: Field comments are required
+de.fh_zwickau.oose.zuul09/src/main/Item.java:9:	CommentRequired:	CommentRequired: Field comments are required
+de.fh_zwickau.oose.zuul09/src/main/Item.java:9:	ImmutableField:	ImmutableField: Field 'items' may be declared final
+de.fh_zwickau.oose.zuul09/src/main/Item.java:9:	LooseCoupling:	LooseCoupling: Avoid using implementation types like 'HashMap'; use the interface instead
+de.fh_zwickau.oose.zuul09/src/main/Item.java:9:	UnusedPrivateField:	UnusedPrivateField: Avoid unused private fields such as 'items'.
+de.fh_zwickau.oose.zuul09/src/main/Item.java:14:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'information' is not assigned and could be declared final
+de.fh_zwickau.oose.zuul09/src/main/Item.java:17:	UseDiamondOperator:	UseDiamondOperator: Raw type use may be avoided by using a diamond: `new HashMap<>()`
+de.fh_zwickau.oose.zuul09/src/main/Item.java:29:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'information' is not assigned and could be declared final
+de.fh_zwickau.oose.zuul09/src/main/Key.java:3:	CommentRequired:	CommentRequired: Class comments are required
+de.fh_zwickau.oose.zuul09/src/main/Key.java:3:	ShortClassName:	ShortClassName: Avoid short class names like Key
+de.fh_zwickau.oose.zuul09/src/main/Key.java:4:	CommentRequired:	CommentRequired: Field comments are required
+de.fh_zwickau.oose.zuul09/src/main/Key.java:4:	ImmutableField:	ImmutableField: Field 'id' may be declared final
+de.fh_zwickau.oose.zuul09/src/main/Key.java:4:	ShortVariable:	ShortVariable: Avoid variables with short names like id
+de.fh_zwickau.oose.zuul09/src/main/Key.java:10:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+de.fh_zwickau.oose.zuul09/src/main/Key.java:10:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'id' is not assigned and could be declared final
+de.fh_zwickau.oose.zuul09/src/main/Key.java:10:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'information' is not assigned and could be declared final
+de.fh_zwickau.oose.zuul09/src/main/Key.java:10:	ShortVariable:	ShortVariable: Avoid variables with short names like id
+de.fh_zwickau.oose.zuul09/src/main/Key.java:24:	UselessOverridingMethod:	UselessOverridingMethod: Overriding method merely calls super
+de.fh_zwickau.oose.zuul09/src/main/Letter.java:3:	CommentRequired:	CommentRequired: Class comments are required
+de.fh_zwickau.oose.zuul09/src/main/Letter.java:5:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+de.fh_zwickau.oose.zuul09/src/main/Letter.java:5:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'information' is not assigned and could be declared final
+de.fh_zwickau.oose.zuul09/src/main/Letter.java:10:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+de.fh_zwickau.oose.zuul09/src/main/Letter.java:11:	SystemPrintln:	SystemPrintln: Usage of System.out/err
+de.fh_zwickau.oose.zuul09/src/main/NullCommand.java:6:	CommentSize:	CommentSize: Comment is too large: Line too long
+de.fh_zwickau.oose.zuul09/src/main/NullCommand.java:16:	CallSuperInConstructor:	CallSuperInConstructor: It is a good practice to call super() in a constructor
+de.fh_zwickau.oose.zuul09/src/main/NullCommand.java:16:	UncommentedEmptyConstructor:	UncommentedEmptyConstructor: Document empty constructor
+de.fh_zwickau.oose.zuul09/src/main/NullCommand.java:16:	UnnecessaryConstructor:	UnnecessaryConstructor: Avoid unnecessary constructors - the compiler will generate these for you
+de.fh_zwickau.oose.zuul09/src/main/NullCommand.java:25:	MissingOverride:	MissingOverride: The method 'execute(Player)' is missing an @Override annotation.
+de.fh_zwickau.oose.zuul09/src/main/NullCommand.java:27:	SystemPrintln:	SystemPrintln: Usage of System.out/err
+de.fh_zwickau.oose.zuul09/src/main/Parser.java:7:	CommentSize:	CommentSize: Comment is too large: Too many lines
+de.fh_zwickau.oose.zuul09/src/main/Parser.java:25:	CommentRequired:	CommentRequired: Field comments are required
+de.fh_zwickau.oose.zuul09/src/main/Parser.java:25:	ImmutableField:	ImmutableField: Field 'commandwords' may be declared final
+de.fh_zwickau.oose.zuul09/src/main/Parser.java:27:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+de.fh_zwickau.oose.zuul09/src/main/Parser.java:31:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+de.fh_zwickau.oose.zuul09/src/main/Parser.java:36:	SystemPrintln:	SystemPrintln: Usage of System.out/err
+de.fh_zwickau.oose.zuul09/src/main/Parser.java:38:	CloseResource:	CloseResource: Ensure that resources like this BufferedReader object are closed after use
+de.fh_zwickau.oose.zuul09/src/main/Parser.java:38:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'reader' could be declared final
+de.fh_zwickau.oose.zuul09/src/main/Parser.java:43:	SystemPrintln:	SystemPrintln: Usage of System.out/err
+de.fh_zwickau.oose.zuul09/src/main/Parser.java:46:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'tokenizer' could be declared final
+de.fh_zwickau.oose.zuul09/src/main/Parser.java:58:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'command' could be declared final
+de.fh_zwickau.oose.zuul09/src/main/Player.java:9:	CommentSize:	CommentSize: Comment is too large: Line too long
+de.fh_zwickau.oose.zuul09/src/main/Player.java:15:	CommentRequired:	CommentRequired: Field comments are required
+de.fh_zwickau.oose.zuul09/src/main/Player.java:15:	ImmutableField:	ImmutableField: Field 'roomHistory' may be declared final
+de.fh_zwickau.oose.zuul09/src/main/Player.java:15:	LooseCoupling:	LooseCoupling: Avoid using implementation types like 'Stack'; use the interface instead
+de.fh_zwickau.oose.zuul09/src/main/Player.java:16:	CommentRequired:	CommentRequired: Field comments are required
+de.fh_zwickau.oose.zuul09/src/main/Player.java:17:	CommentRequired:	CommentRequired: Field comments are required
+de.fh_zwickau.oose.zuul09/src/main/Player.java:17:	UnusedPrivateField:	UnusedPrivateField: Avoid unused private fields such as 'previousRoom'.
+de.fh_zwickau.oose.zuul09/src/main/Player.java:18:	CommentRequired:	CommentRequired: Field comments are required
+de.fh_zwickau.oose.zuul09/src/main/Player.java:18:	ImmutableField:	ImmutableField: Field 'inventory' may be declared final
+de.fh_zwickau.oose.zuul09/src/main/Player.java:18:	LooseCoupling:	LooseCoupling: Avoid using implementation types like 'HashMap'; use the interface instead
+de.fh_zwickau.oose.zuul09/src/main/Player.java:41:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'room' is not assigned and could be declared final
+de.fh_zwickau.oose.zuul09/src/main/Player.java:49:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'room' is not assigned and could be declared final
+de.fh_zwickau.oose.zuul09/src/main/Player.java:53:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+de.fh_zwickau.oose.zuul09/src/main/Player.java:60:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+de.fh_zwickau.oose.zuul09/src/main/Player.java:60:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'item' is not assigned and could be declared final
+de.fh_zwickau.oose.zuul09/src/main/Player.java:67:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+de.fh_zwickau.oose.zuul09/src/main/Player.java:67:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'itemName' is not assigned and could be declared final
+de.fh_zwickau.oose.zuul09/src/main/Player.java:74:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+de.fh_zwickau.oose.zuul09/src/main/Player.java:74:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'itemName' is not assigned and could be declared final
+de.fh_zwickau.oose.zuul09/src/main/Player.java:81:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+de.fh_zwickau.oose.zuul09/src/main/Player.java:81:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'itemName' is not assigned and could be declared final
+de.fh_zwickau.oose.zuul09/src/main/Player.java:88:	LooseCoupling:	LooseCoupling: Avoid using implementation types like 'HashMap'; use the interface instead
+de.fh_zwickau.oose.zuul09/src/main/Player.java:95:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+de.fh_zwickau.oose.zuul09/src/main/Player.java:102:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+de.fh_zwickau.oose.zuul09/src/main/Player.java:102:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'room' is not assigned and could be declared final
+de.fh_zwickau.oose.zuul09/src/main/Player.java:103:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'item' could be declared final
+de.fh_zwickau.oose.zuul09/src/main/Player.java:105:	SystemPrintln:	SystemPrintln: Usage of System.out/err
+de.fh_zwickau.oose.zuul09/src/main/Player.java:106:	OnlyOneReturn:	OnlyOneReturn: A method should have only one exit point, and that should be the last statement in the method
+de.fh_zwickau.oose.zuul09/src/main/Player.java:109:	SystemPrintln:	SystemPrintln: Usage of System.out/err
+de.fh_zwickau.oose.zuul09/src/main/Player.java:115:	CommentSize:	CommentSize: Comment is too large: Line too long
+de.fh_zwickau.oose.zuul09/src/main/Player.java:117:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'direction' is not assigned and could be declared final
+de.fh_zwickau.oose.zuul09/src/main/Player.java:123:	SystemPrintln:	SystemPrintln: Usage of System.out/err
+de.fh_zwickau.oose.zuul09/src/main/Player.java:128:	SystemPrintln:	SystemPrintln: Usage of System.out/err
+de.fh_zwickau.oose.zuul09/src/main/Player.java:131:	SystemPrintln:	SystemPrintln: Usage of System.out/err
+de.fh_zwickau.oose.zuul09/src/main/Player.java:139:	ConfusingTernary:	ConfusingTernary: Avoid if (x != y) ..; else ..;
+de.fh_zwickau.oose.zuul09/src/main/Player.java:141:	SystemPrintln:	SystemPrintln: Usage of System.out/err
+de.fh_zwickau.oose.zuul09/src/main/Player.java:143:	SystemPrintln:	SystemPrintln: Usage of System.out/err
+de.fh_zwickau.oose.zuul09/src/main/QuitCommand.java:13:	CallSuperInConstructor:	CallSuperInConstructor: It is a good practice to call super() in a constructor
+de.fh_zwickau.oose.zuul09/src/main/QuitCommand.java:13:	UncommentedEmptyConstructor:	UncommentedEmptyConstructor: Document empty constructor
+de.fh_zwickau.oose.zuul09/src/main/QuitCommand.java:13:	UnnecessaryConstructor:	UnnecessaryConstructor: Avoid unnecessary constructors - the compiler will generate these for you
+de.fh_zwickau.oose.zuul09/src/main/QuitCommand.java:22:	MissingOverride:	MissingOverride: The method 'execute(Player)' is missing an @Override annotation.
+de.fh_zwickau.oose.zuul09/src/main/Room.java:4:	UnnecessaryImport:	UnnecessaryImport: Unused import 'java.util.Iterator'
+de.fh_zwickau.oose.zuul09/src/main/Room.java:10:	CommentSize:	CommentSize: Comment is too large: Line too long
+de.fh_zwickau.oose.zuul09/src/main/Room.java:16:	ShortClassName:	ShortClassName: Avoid short class names like Room
+de.fh_zwickau.oose.zuul09/src/main/Room.java:18:	CommentRequired:	CommentRequired: Field comments are required
+de.fh_zwickau.oose.zuul09/src/main/Room.java:18:	ImmutableField:	ImmutableField: Field 'description' may be declared final
+de.fh_zwickau.oose.zuul09/src/main/Room.java:21:	CommentSize:	CommentSize: Comment is too large: Line too long
+de.fh_zwickau.oose.zuul09/src/main/Room.java:24:	ImmutableField:	ImmutableField: Field 'exits' may be declared final
+de.fh_zwickau.oose.zuul09/src/main/Room.java:24:	LooseCoupling:	LooseCoupling: Avoid using implementation types like 'HashMap'; use the interface instead
+de.fh_zwickau.oose.zuul09/src/main/Room.java:25:	CommentRequired:	CommentRequired: Field comments are required
+de.fh_zwickau.oose.zuul09/src/main/Room.java:25:	ImmutableField:	ImmutableField: Field 'items' may be declared final
+de.fh_zwickau.oose.zuul09/src/main/Room.java:25:	LooseCoupling:	LooseCoupling: Avoid using implementation types like 'HashMap'; use the interface instead
+de.fh_zwickau.oose.zuul09/src/main/Room.java:26:	CommentRequired:	CommentRequired: Field comments are required
+de.fh_zwickau.oose.zuul09/src/main/Room.java:27:	CommentRequired:	CommentRequired: Field comments are required
+de.fh_zwickau.oose.zuul09/src/main/Room.java:37:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'description' is not assigned and could be declared final
+de.fh_zwickau.oose.zuul09/src/main/Room.java:40:	UseDiamondOperator:	UseDiamondOperator: Explicit type arguments can be replaced by a diamond: `new HashMap<>()`
+de.fh_zwickau.oose.zuul09/src/main/Room.java:41:	UseDiamondOperator:	UseDiamondOperator: Explicit type arguments can be replaced by a diamond: `new HashMap<>()`
+de.fh_zwickau.oose.zuul09/src/main/Room.java:47:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+de.fh_zwickau.oose.zuul09/src/main/Room.java:47:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'item' is not assigned and could be declared final
+de.fh_zwickau.oose.zuul09/src/main/Room.java:51:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+de.fh_zwickau.oose.zuul09/src/main/Room.java:51:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'itemName' is not assigned and could be declared final
+de.fh_zwickau.oose.zuul09/src/main/Room.java:56:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+de.fh_zwickau.oose.zuul09/src/main/Room.java:58:	OnlyOneReturn:	OnlyOneReturn: A method should have only one exit point, and that should be the last statement in the method
+de.fh_zwickau.oose.zuul09/src/main/Room.java:60:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'itemList' could be declared final
+de.fh_zwickau.oose.zuul09/src/main/Room.java:61:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'itemName' could be declared final
+de.fh_zwickau.oose.zuul09/src/main/Room.java:73:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'direction' is not assigned and could be declared final
+de.fh_zwickau.oose.zuul09/src/main/Room.java:73:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'neighbor' is not assigned and could be declared final
+de.fh_zwickau.oose.zuul09/src/main/Room.java:80:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+de.fh_zwickau.oose.zuul09/src/main/Room.java:80:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'schluessel' is not assigned and could be declared final
+de.fh_zwickau.oose.zuul09/src/main/Room.java:87:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+de.fh_zwickau.oose.zuul09/src/main/Room.java:87:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'schluessel' is not assigned and could be declared final
+de.fh_zwickau.oose.zuul09/src/main/Room.java:90:	OnlyOneReturn:	OnlyOneReturn: A method should have only one exit point, and that should be the last statement in the method
+de.fh_zwickau.oose.zuul09/src/main/Room.java:120:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'keys' could be declared final
+de.fh_zwickau.oose.zuul09/src/main/Room.java:121:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'exit' could be declared final
+de.fh_zwickau.oose.zuul09/src/main/Room.java:122:	UseStringBufferForStringAppends:	UseStringBufferForStringAppends: Prefer StringBuilder (non-synchronized) or StringBuffer (synchronized) over += for concatenating strings
+de.fh_zwickau.oose.zuul09/src/main/Room.java:143:	CommentSize:	CommentSize: Comment is too large: Line too long
+de.fh_zwickau.oose.zuul09/src/main/Room.java:145:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'direction' is not assigned and could be declared final
+de.fh_zwickau.oose.zuul09/src/main/ShowInventoryCommand.java:9:	CallSuperInConstructor:	CallSuperInConstructor: It is a good practice to call super() in a constructor
+de.fh_zwickau.oose.zuul09/src/main/ShowInventoryCommand.java:9:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+de.fh_zwickau.oose.zuul09/src/main/ShowInventoryCommand.java:9:	UncommentedEmptyConstructor:	UncommentedEmptyConstructor: Document empty constructor
+de.fh_zwickau.oose.zuul09/src/main/ShowInventoryCommand.java:9:	UnnecessaryConstructor:	UnnecessaryConstructor: Avoid unnecessary constructors - the compiler will generate these for you
+de.fh_zwickau.oose.zuul09/src/main/ShowInventoryCommand.java:22:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'player' is not assigned and could be declared final
+de.fh_zwickau.oose.zuul09/src/main/ShowInventoryCommand.java:24:	SystemPrintln:	SystemPrintln: Usage of System.out/err
+de.fh_zwickau.oose.zuul09/src/main/ShowInventoryCommand.java:26:	SystemPrintln:	SystemPrintln: Usage of System.out/err
+de.fh_zwickau.oose.zuul09/src/main/ShowInventoryCommand.java:27:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'item' could be declared final
+de.fh_zwickau.oose.zuul09/src/main/ShowInventoryCommand.java:28:	SystemPrintln:	SystemPrintln: Usage of System.out/err
+de.fh_zwickau.oose.zuul09/src/main/TakeCommand.java:16:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+de.fh_zwickau.oose.zuul09/src/main/TakeCommand.java:16:	UnnecessaryConstructor:	UnnecessaryConstructor: Avoid unnecessary constructors - the compiler will generate these for you
+de.fh_zwickau.oose.zuul09/src/main/TakeCommand.java:35:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'player' is not assigned and could be declared final
+de.fh_zwickau.oose.zuul09/src/main/TakeCommand.java:36:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'optionalItemName' could be declared final
+de.fh_zwickau.oose.zuul09/src/main/TakeCommand.java:39:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'itemName' could be declared final
+de.fh_zwickau.oose.zuul09/src/main/TakeCommand.java:40:	LawOfDemeter:	LawOfDemeter: Call to `getCurrentRoom` on foreign value `player` (degree 1)
+de.fh_zwickau.oose.zuul09/src/main/TakeCommand.java:40:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'currentRoom' could be declared final
+de.fh_zwickau.oose.zuul09/src/main/TakeCommand.java:41:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'optionalItem' could be declared final
+de.fh_zwickau.oose.zuul09/src/main/TakeCommand.java:44:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'item' could be declared final
+de.fh_zwickau.oose.zuul09/src/main/TakeCommand.java:46:	SystemPrintln:	SystemPrintln: Usage of System.out/err
+de.fh_zwickau.oose.zuul09/src/main/TakeCommand.java:48:	SystemPrintln:	SystemPrintln: Usage of System.out/err
+de.fh_zwickau.oose.zuul09/src/main/TakeCommand.java:51:	SystemPrintln:	SystemPrintln: Usage of System.out/err
+de.fh_zwickau.oose.zuul09/src/test/CommandWordsTest.java:14:	UnnecessaryImport:	UnnecessaryImport: Unused import 'java.io.ByteArrayOutputStream'
+de.fh_zwickau.oose.zuul09/src/test/CommandWordsTest.java:15:	UnnecessaryImport:	UnnecessaryImport: Unused import 'java.io.PrintStream'
+de.fh_zwickau.oose.zuul09/src/test/CommandWordsTest.java:17:	AtLeastOneConstructor:	AtLeastOneConstructor: Each class should declare at least one constructor
+de.fh_zwickau.oose.zuul09/src/test/CommandWordsTest.java:17:	CommentRequired:	CommentRequired: Class comments are required
+de.fh_zwickau.oose.zuul09/src/test/CommandWordsTest.java:19:	CommentRequired:	CommentRequired: Field comments are required
+de.fh_zwickau.oose.zuul09/src/test/CommandWordsTest.java:22:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+de.fh_zwickau.oose.zuul09/src/test/CommandWordsTest.java:27:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+de.fh_zwickau.oose.zuul09/src/test/CommandWordsTest.java:27:	UnitTestContainsTooManyAsserts:	UnitTestContainsTooManyAsserts: Unit tests should not contain more than 1 assert(s).
+de.fh_zwickau.oose.zuul09/src/test/CommandWordsTest.java:30:	UnitTestAssertionsShouldIncludeMessage:	UnitTestAssertionsShouldIncludeMessage: Unit test assertions should include a message
+de.fh_zwickau.oose.zuul09/src/test/CommandWordsTest.java:33:	UnitTestAssertionsShouldIncludeMessage:	UnitTestAssertionsShouldIncludeMessage: Unit test assertions should include a message
+de.fh_zwickau.oose.zuul09/src/test/CommandWordsTest.java:36:	UnitTestAssertionsShouldIncludeMessage:	UnitTestAssertionsShouldIncludeMessage: Unit test assertions should include a message
+de.fh_zwickau.oose.zuul09/src/test/CommandWordsTest.java:40:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+de.fh_zwickau.oose.zuul09/src/test/CommandWordsTest.java:40:	UnitTestContainsTooManyAsserts:	UnitTestContainsTooManyAsserts: Unit tests should not contain more than 1 assert(s).
+de.fh_zwickau.oose.zuul09/src/test/CommandWordsTest.java:42:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'command' could be declared final
+de.fh_zwickau.oose.zuul09/src/test/CommandWordsTest.java:43:	UnitTestAssertionsShouldIncludeMessage:	UnitTestAssertionsShouldIncludeMessage: Unit test assertions should include a message
+de.fh_zwickau.oose.zuul09/src/test/CommandWordsTest.java:44:	UnitTestAssertionsShouldIncludeMessage:	UnitTestAssertionsShouldIncludeMessage: Unit test assertions should include a message
+de.fh_zwickau.oose.zuul09/src/test/ItemCommandTest.java:21:	AtLeastOneConstructor:	AtLeastOneConstructor: Each class should declare at least one constructor
+de.fh_zwickau.oose.zuul09/src/test/ItemCommandTest.java:23:	CommentRequired:	CommentRequired: Field comments are required
+de.fh_zwickau.oose.zuul09/src/test/ItemCommandTest.java:24:	CommentRequired:	CommentRequired: Field comments are required
+de.fh_zwickau.oose.zuul09/src/test/ItemCommandTest.java:25:	CommentRequired:	CommentRequired: Field comments are required
+de.fh_zwickau.oose.zuul09/src/test/ItemCommandTest.java:26:	CommentRequired:	CommentRequired: Field comments are required
+de.fh_zwickau.oose.zuul09/src/test/ItemCommandTest.java:26:	SingularField:	SingularField: Perhaps 'key' could be replaced by a local variable.
+de.fh_zwickau.oose.zuul09/src/test/ItemCommandTest.java:27:	CommentRequired:	CommentRequired: Field comments are required
+de.fh_zwickau.oose.zuul09/src/test/ItemCommandTest.java:28:	CommentRequired:	CommentRequired: Field comments are required
+de.fh_zwickau.oose.zuul09/src/test/ItemCommandTest.java:29:	CommentRequired:	CommentRequired: Field comments are required
+de.fh_zwickau.oose.zuul09/src/test/ItemCommandTest.java:29:	LongVariable:	LongVariable: Avoid excessively long variable names like showInventoryCommand
+de.fh_zwickau.oose.zuul09/src/test/ItemCommandTest.java:30:	CommentRequired:	CommentRequired: Field comments are required
+de.fh_zwickau.oose.zuul09/src/test/ItemCommandTest.java:38:	UnusedAssignment:	UnusedAssignment: The value assigned to field 'player' is never used (overwritten on line 45)
+de.fh_zwickau.oose.zuul09/src/test/ItemCommandTest.java:40:	AvoidDuplicateLiterals:	AvoidDuplicateLiterals: The String literal "Ein Buch" appears 9 times in this file; the first occurrence is on line 40
+de.fh_zwickau.oose.zuul09/src/test/ItemCommandTest.java:57:	UnitTestContainsTooManyAsserts:	UnitTestContainsTooManyAsserts: Unit tests should not contain more than 1 assert(s).
+de.fh_zwickau.oose.zuul09/src/test/ItemCommandTest.java:58:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'takeCommand' could be declared final
+de.fh_zwickau.oose.zuul09/src/test/ItemCommandTest.java:61:	UnitTestAssertionsShouldIncludeMessage:	UnitTestAssertionsShouldIncludeMessage: Unit test assertions should include a message
+de.fh_zwickau.oose.zuul09/src/test/ItemCommandTest.java:62:	UnitTestAssertionsShouldIncludeMessage:	UnitTestAssertionsShouldIncludeMessage: Unit test assertions should include a message
+de.fh_zwickau.oose.zuul09/src/test/ItemCommandTest.java:63:	UnitTestAssertionsShouldIncludeMessage:	UnitTestAssertionsShouldIncludeMessage: Unit test assertions should include a message
+de.fh_zwickau.oose.zuul09/src/test/ItemCommandTest.java:70:	UnitTestContainsTooManyAsserts:	UnitTestContainsTooManyAsserts: Unit tests should not contain more than 1 assert(s).
+de.fh_zwickau.oose.zuul09/src/test/ItemCommandTest.java:71:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'takeCommand' could be declared final
+de.fh_zwickau.oose.zuul09/src/test/ItemCommandTest.java:72:	AvoidDuplicateLiterals:	AvoidDuplicateLiterals: The String literal "Schwert" appears 4 times in this file; the first occurrence is on line 72
+de.fh_zwickau.oose.zuul09/src/test/ItemCommandTest.java:74:	UnitTestAssertionsShouldIncludeMessage:	UnitTestAssertionsShouldIncludeMessage: Unit test assertions should include a message
+de.fh_zwickau.oose.zuul09/src/test/ItemCommandTest.java:75:	UnitTestAssertionsShouldIncludeMessage:	UnitTestAssertionsShouldIncludeMessage: Unit test assertions should include a message
+de.fh_zwickau.oose.zuul09/src/test/ItemCommandTest.java:82:	UnitTestContainsTooManyAsserts:	UnitTestContainsTooManyAsserts: Unit tests should not contain more than 1 assert(s).
+de.fh_zwickau.oose.zuul09/src/test/ItemCommandTest.java:83:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'takeCommand' could be declared final
+de.fh_zwickau.oose.zuul09/src/test/ItemCommandTest.java:85:	UnitTestAssertionsShouldIncludeMessage:	UnitTestAssertionsShouldIncludeMessage: Unit test assertions should include a message
+de.fh_zwickau.oose.zuul09/src/test/ItemCommandTest.java:86:	UnitTestAssertionsShouldIncludeMessage:	UnitTestAssertionsShouldIncludeMessage: Unit test assertions should include a message
+de.fh_zwickau.oose.zuul09/src/test/ItemCommandTest.java:87:	UnitTestAssertionsShouldIncludeMessage:	UnitTestAssertionsShouldIncludeMessage: Unit test assertions should include a message
+de.fh_zwickau.oose.zuul09/src/test/ItemCommandTest.java:94:	UnitTestContainsTooManyAsserts:	UnitTestContainsTooManyAsserts: Unit tests should not contain more than 1 assert(s).
+de.fh_zwickau.oose.zuul09/src/test/ItemCommandTest.java:98:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'dropCommand' could be declared final
+de.fh_zwickau.oose.zuul09/src/test/ItemCommandTest.java:101:	UnitTestAssertionsShouldIncludeMessage:	UnitTestAssertionsShouldIncludeMessage: Unit test assertions should include a message
+de.fh_zwickau.oose.zuul09/src/test/ItemCommandTest.java:102:	UnitTestAssertionsShouldIncludeMessage:	UnitTestAssertionsShouldIncludeMessage: Unit test assertions should include a message
+de.fh_zwickau.oose.zuul09/src/test/ItemCommandTest.java:103:	UnitTestAssertionsShouldIncludeMessage:	UnitTestAssertionsShouldIncludeMessage: Unit test assertions should include a message
+de.fh_zwickau.oose.zuul09/src/test/ItemCommandTest.java:110:	UnitTestContainsTooManyAsserts:	UnitTestContainsTooManyAsserts: Unit tests should not contain more than 1 assert(s).
+de.fh_zwickau.oose.zuul09/src/test/ItemCommandTest.java:111:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'dropCommand' could be declared final
+de.fh_zwickau.oose.zuul09/src/test/ItemCommandTest.java:114:	UnitTestAssertionsShouldIncludeMessage:	UnitTestAssertionsShouldIncludeMessage: Unit test assertions should include a message
+de.fh_zwickau.oose.zuul09/src/test/ItemCommandTest.java:115:	UnitTestAssertionsShouldIncludeMessage:	UnitTestAssertionsShouldIncludeMessage: Unit test assertions should include a message
+de.fh_zwickau.oose.zuul09/src/test/ItemCommandTest.java:119:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+de.fh_zwickau.oose.zuul09/src/test/ItemCommandTest.java:121:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'expectedInfo' could be declared final
+de.fh_zwickau.oose.zuul09/src/test/ItemCommandTest.java:122:	UnitTestAssertionsShouldIncludeMessage:	UnitTestAssertionsShouldIncludeMessage: Unit test assertions should include a message
+de.fh_zwickau.oose.zuul09/src/test/ItemCommandTest.java:126:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+de.fh_zwickau.oose.zuul09/src/test/ItemCommandTest.java:131:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'expectedOutput' could be declared final
+de.fh_zwickau.oose.zuul09/src/test/ItemCommandTest.java:132:	UnitTestAssertionsShouldIncludeMessage:	UnitTestAssertionsShouldIncludeMessage: Unit test assertions should include a message
+de.fh_zwickau.oose.zuul09/src/test/ItemCommandTest.java:136:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+de.fh_zwickau.oose.zuul09/src/test/ItemCommandTest.java:145:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'expectedOutput' could be declared final
+de.fh_zwickau.oose.zuul09/src/test/ItemCommandTest.java:148:	UnitTestAssertionsShouldIncludeMessage:	UnitTestAssertionsShouldIncludeMessage: Unit test assertions should include a message
+de.fh_zwickau.oose.zuul09/src/test/PlayerTest.java:10:	AtLeastOneConstructor:	AtLeastOneConstructor: Each class should declare at least one constructor
+de.fh_zwickau.oose.zuul09/src/test/PlayerTest.java:10:	CommentRequired:	CommentRequired: Class comments are required
+de.fh_zwickau.oose.zuul09/src/test/PlayerTest.java:12:	CommentRequired:	CommentRequired: Field comments are required
+de.fh_zwickau.oose.zuul09/src/test/PlayerTest.java:13:	CommentRequired:	CommentRequired: Field comments are required
+de.fh_zwickau.oose.zuul09/src/test/PlayerTest.java:13:	SingularField:	SingularField: Perhaps 'room1' could be replaced by a local variable.
+de.fh_zwickau.oose.zuul09/src/test/PlayerTest.java:14:	CommentRequired:	CommentRequired: Field comments are required
+de.fh_zwickau.oose.zuul09/src/test/PlayerTest.java:14:	SingularField:	SingularField: Perhaps 'room2' could be replaced by a local variable.
+de.fh_zwickau.oose.zuul09/src/test/PlayerTest.java:17:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+de.fh_zwickau.oose.zuul09/src/test/PlayerTest.java:19:	AvoidDuplicateLiterals:	AvoidDuplicateLiterals: The String literal "Raum 1" appears 9 times in this file; the first occurrence is on line 19
+de.fh_zwickau.oose.zuul09/src/test/PlayerTest.java:20:	AvoidDuplicateLiterals:	AvoidDuplicateLiterals: The String literal "Raum 2" appears 5 times in this file; the first occurrence is on line 20
+de.fh_zwickau.oose.zuul09/src/test/PlayerTest.java:22:	AvoidDuplicateLiterals:	AvoidDuplicateLiterals: The String literal "norden" appears 6 times in this file; the first occurrence is on line 22
+de.fh_zwickau.oose.zuul09/src/test/PlayerTest.java:29:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+de.fh_zwickau.oose.zuul09/src/test/PlayerTest.java:30:	UnitTestAssertionsShouldIncludeMessage:	UnitTestAssertionsShouldIncludeMessage: Unit test assertions should include a message
+de.fh_zwickau.oose.zuul09/src/test/PlayerTest.java:34:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+de.fh_zwickau.oose.zuul09/src/test/PlayerTest.java:36:	UnitTestAssertionsShouldIncludeMessage:	UnitTestAssertionsShouldIncludeMessage: Unit test assertions should include a message
+de.fh_zwickau.oose.zuul09/src/test/PlayerTest.java:40:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+de.fh_zwickau.oose.zuul09/src/test/PlayerTest.java:42:	UnitTestAssertionsShouldIncludeMessage:	UnitTestAssertionsShouldIncludeMessage: Unit test assertions should include a message
+de.fh_zwickau.oose.zuul09/src/test/PlayerTest.java:46:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+de.fh_zwickau.oose.zuul09/src/test/PlayerTest.java:49:	UnitTestAssertionsShouldIncludeMessage:	UnitTestAssertionsShouldIncludeMessage: Unit test assertions should include a message
+de.fh_zwickau.oose.zuul09/src/test/PlayerTest.java:53:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+de.fh_zwickau.oose.zuul09/src/test/PlayerTest.java:55:	UnitTestAssertionsShouldIncludeMessage:	UnitTestAssertionsShouldIncludeMessage: Unit test assertions should include a message
+de.fh_zwickau.oose.zuul09/src/test/PlayerTest.java:60:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+de.fh_zwickau.oose.zuul09/src/test/PlayerTest.java:60:	UnitTestContainsTooManyAsserts:	UnitTestContainsTooManyAsserts: Unit tests should not contain more than 1 assert(s).
+de.fh_zwickau.oose.zuul09/src/test/PlayerTest.java:61:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'player' could be declared final
