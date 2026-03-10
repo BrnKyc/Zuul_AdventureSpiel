@@ -8,7 +8,6 @@ import java.util.Optional;
  * Diese Klasse enthält alle im Spiel bekannten Kommandowörter.
  * Sie wird genutzt, um eingegebene Kommandos zu erkennen.
  *
- * @author  Michael Kolling and David J. Barnes
  */
 
 public class CommandWords
