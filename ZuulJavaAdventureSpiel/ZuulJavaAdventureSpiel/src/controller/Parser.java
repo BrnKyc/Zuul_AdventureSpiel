@@ -17,7 +17,6 @@ import java.util.StringTokenizer;
  * keinem gültigen Kommandowort entspricht, wird ein Objekt der Klasse
  * NullCommand zurückgeliefert.
  *
- * @author  Michael Kolling and David J. Barnes
  */
 
 public class Parser {
