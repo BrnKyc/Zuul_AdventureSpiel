@@ -4,8 +4,6 @@ import model.Player;
 
 /**
  * Implementierung des Kommandos "ende"
- * 
- * @author Michael Kolling
  */
 public class QuitCommand extends Command
 {
