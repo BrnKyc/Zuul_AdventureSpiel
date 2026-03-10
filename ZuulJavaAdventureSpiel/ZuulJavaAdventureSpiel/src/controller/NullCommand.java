@@ -7,7 +7,6 @@ import model.Player;
  * Kommando eingegeben wurde.
  * Das NullCommand tut bei seiner Ausführung nichts weiter, als eine Fehlermeldung auszugeben. 
  * 
- * @author Ralf Laue
  */
 public class NullCommand extends Command
 {
