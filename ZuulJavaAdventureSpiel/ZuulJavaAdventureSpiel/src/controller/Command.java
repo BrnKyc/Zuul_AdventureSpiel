@@ -14,7 +14,6 @@ import model.Player;
  * Besteht das Kommando aus nur einem Wort, ist das Objektwort <null>.
  * 
  * 
- * @author  Michael Kolling and David J. Barnes
  */
 
 public abstract class Command
