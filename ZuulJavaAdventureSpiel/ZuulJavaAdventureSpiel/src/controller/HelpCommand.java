@@ -7,7 +7,6 @@ import model.Player;
 /**
  * Implementierung des Kommandos "hilfe"
  * 
- * @author Michael Kolling
  */
 public class HelpCommand extends Command {
     private CommandWords commandWords;
