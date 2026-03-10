@@ -8,7 +8,6 @@ import java.util.Stack;
  * Diese Klasse steht für einen Spieler im Spiel.
  * Ein Spieler befindet sich zu jedem Zeitpunkt des Spiels in einem bestimmten Raum.
  *
- * @author Michael Kolling
  */
 public class Player {
     private Stack<Room> roomHistory;
