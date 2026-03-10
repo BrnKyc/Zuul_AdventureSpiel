@@ -21,7 +21,6 @@ import controller.Parser;
  * In einer Endlosschleife wird dann dafür gesorgt, dass eingegebene Kommandos
  * analysiert und ausgeführt werden.
  * 
- * @author  Michael Kolling and David J. Barnes
  */
 
 class Game 
