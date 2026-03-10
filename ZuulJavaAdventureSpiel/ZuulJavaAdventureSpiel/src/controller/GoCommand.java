@@ -7,7 +7,6 @@ import model.Player;
 /**
  * Implementierung des Kommandos "gehe"
  * 
- * @author Michael Kolling
  * @version 1.0 (December 2002)
  */
 public class GoCommand extends Command
