@@ -6,7 +6,6 @@ import model.Player;
  * Die Klasse BackCommand die beschreibt, was bei Auswahl des Befehls "zurück"
  * ausgeführt wird.
  * 
- * @author Jason Kircheis
  * @version 1.0 (Oktober 2024)
  */
 public class BackCommand extends Command
